@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Box Puzzle</title>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <link rel="stylesheet" href="/CSS/home.css">
+    <link rel="import" href="index.html">
+</head>
+<body>
+    <div id="background">
+        <img id="bgimage"  src="/img/background_image.png" alt="background_image">
+        <div id="overlay">
+            <div id="header">
+                <h2>Sliding Box Puzzle</h2>
+            </div>
+            <div id="centre">
+                <h1>Select a Location to continue</h1>
+                <select name="imageSelector" id="imageSelector" onchange="imageSrc()">
+                    <option value="" disabled selected>Select a Location</option>
+                    <option value="/img/Berlin.png">GroSe Stern, Berlin</option>
+                    <option value="/img/LowerSaxony.png">Herrenhausen Gardens, Hanover, Lower Saxony</option>
+                    <option value="/img/Interlaken.png">Jungfrau Park, Interlaken</option>
+                    <option value="/img/Vienna.png">Maria-Theresien-Platz, Vienna</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/JS/location.js"></script>
+    
+</body>
+</html>
