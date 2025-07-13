@@ -26,8 +26,8 @@ html,body{
     height: 10%;
     color: antiquewhite;
     background-color: transparent;
-    font-family: 'Autowide';
-    font-weight: 100%;
+    font-family: 'Audiowide';
+    font-weight: 100;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ html,body{
     width: 50%;
     color: antiquewhite;
     font-family: 'Audiowide';
-    font-weight: 100%;
+    font-weight: 100;
     text-align: center;
 }
 #centre h1{
@@ -64,6 +64,6 @@ html,body{
     margin-top: 2%;
     height: 5%;
     width: 25%;
-    font-family: 'Audiwide';
+    font-family: 'Audiowide';
 }
 
